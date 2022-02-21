@@ -1,0 +1,16 @@
+domain: openyurt.io
+layout:
+- go.kubebuilder.io/v3
+projectName: yurt-user-controller
+repo: github.com/openyurtio/yurt-user-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: openyurt.io
+  group: user
+  kind: User
+  path: github.com/openyurtio/yurt-user-controller/api/v1alpha1
+  version: v1alpha1
+version: "3"

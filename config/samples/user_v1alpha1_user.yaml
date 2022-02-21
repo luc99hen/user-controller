@@ -1,0 +1,17 @@
+apiVersion: user.openyurt.io/v1alpha1
+kind: User
+metadata:
+  name: openyurt
+spec:
+  # Add fields here
+  organization: "openyurt"
+  email: "1111111@163.com"
+  mobilephone: "12345678901"
+  token: "xxxxxxxxxxxxxx"
+  nodeAddScript: "xxxxxxxxxx"
+  kubeConfig: "xxxxxxxxxxx"
+  namespace: "openyurt"
+status:
+  nodeNum: 2
+  expired: false
+
